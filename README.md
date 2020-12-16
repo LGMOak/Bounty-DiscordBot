@@ -58,7 +58,10 @@ pip install discord.py[voice] praw datetime youtube_dl asyncio pprint discord wo
 ```
 
 ## Release History
-
+* 0.1.9
+    * Updated to v1.5 discord API
+    * General refinements
+    * Many bug fixes
 * 0.1.8
     * Many bug fixes
     * Added roll and rollstats command
