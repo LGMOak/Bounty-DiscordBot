@@ -94,7 +94,6 @@ pip install discord.py[voice] praw datetime youtube_dl asyncio pprint discord wo
 * 0.1.1
     * Wolfram cog successfully added
     * Reworked Reddit command so any subreddit can be searched
-	* Casino cog started
 * 0.1.0
     * Successfully fully converted to python3.7
     * Added Cleverbot Integration
