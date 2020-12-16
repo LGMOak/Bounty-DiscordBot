@@ -39,7 +39,7 @@ class General(commands.Cog):
         current_time = time.time()
         difference = int(round(current_time - start_time))
         text = str(datetime.timedelta(seconds=difference))
-        embed = discord.Embed(colour=ctx.message.author.top_role.colour)
+        embed = discord.Embed(colour=0xff8000)
         embed.add_field(name="Bot Uptime", value=text)
         embed.set_footer(text="Bounty by Lukim")
         try:
@@ -52,7 +52,7 @@ class General(commands.Cog):
     async def marco(self, ctx):
         """Marco Polo (A ping command)"""
         bot = ctx.bot
-        embed = discord.Embed(colour=ctx.message.author.top_role.colour)
+        embed = discord.Embed(colour=0xffff00)
         embed.add_field(name="Marco Polo!", value="Polo! **({} s)**".format(round(bot.latency, 3)))
         embed.set_footer(text="Bounty by Lukim")
 

@@ -99,9 +99,9 @@ class Fun(commands.Cog):
             # If the current iteration is the correct selection (specifically after the previous if).
             if current == pick:
 
-                embed = discord.Embed(title=submission.title, color=ctx.message.author.top_role.colour, url=submission.shortlink)
+                embed = discord.Embed(title=submission.title, color=0xff8040, url=submission.shortlink)
                 embed.set_image(url=submission.url) # This makes the image of the reddit post appear on the embed.
-                embed.set_footer(text='Served hot and ready from r/' + subreddit.display_name)
+                embed.set_footer(text='Served hot from r/' + subreddit.display_name)
 
                 await ctx.send(embed=embed)
                 break
@@ -253,7 +253,7 @@ class Fun(commands.Cog):
             rolls.append(random.randint(1,int(toRoll[1])))
             total += int(rolls[-1])
 
-        embed = discord.Embed(colour=ctx.message.author.top_role.colour)
+        embed = discord.Embed(colour=0xdd2c22)
         embed.add_field(name="Dice Roller", value=f"{ctx.message.author.mention}\nRoll: {toSay} {rolls} + {toRoll[-1]}\nRoll: {total}")
         embed.set_footer(text="Bounty By Lukim - Command Written By Tis Tiller")
 
@@ -407,9 +407,8 @@ translate   Navy seals but it's been translated several times through Google```
         """hacker variation of navy seals"""
         pass
     
-    @triggered.command()
+    @triggered.command(hidden=True)
     async def school(self, ctx):
-        """lachlan's version"""
         pass
 
 def setup(bot):
