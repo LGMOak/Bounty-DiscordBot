@@ -1,4 +1,4 @@
-# BountyBot
+# Bounty by Lukim
 
 >An all in one utility bot for discord
 
