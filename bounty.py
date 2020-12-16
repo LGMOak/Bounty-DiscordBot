@@ -32,8 +32,6 @@ def get_prefix(bot, message):
 bot = commands.Bot(command_prefix=get_prefix, description='Bounty by Lukim#6823', pm_help = True, intents=Intents.all())
 # Should be pretty straightfoward, this is what should happen when the bot is turned on.
 
-# This is a test
-
 # -----------------------------------------
 # Logging Configuration
 class _fileStream():
