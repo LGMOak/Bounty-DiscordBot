@@ -17,10 +17,9 @@ Some commands to get you started
 +help to show all commands and get a general feel
 +marco to get a response (A ping command)
 +uptime to display bot uptime
-Speak in DM to initate cleverbot and chat with Bounty
-+miniask[inquiry] to get answers to a question
++miniask [inquiry] to get answers to a question
 +server to get an invite link to Bounty official development server
-and many many more
+and many many more commands
 ```
 Commands are split into cogs for organisation
 
@@ -54,7 +53,7 @@ There are many levels of data logging, these levels are:
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements.
 
 ```sh
-pip install discord.py[voice] praw datetime youtube_dl asyncio pprint discord wolframalpha grequests
+pip install discord.py[voice] praw datetime youtube_dl asyncio discord wolframalpha grequests
 ```
 
 ## Release History
